@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LTM_Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LTM_Project">
+				<Option output="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/LTM_Project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hieudz/CLionProjects/LTM_Project/View/library"/>
+					<Add directory="/home/hieudz/CLionProjects/LTM_Project/Handle/library"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/dbus-1.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/libmount"/>
+					<Add directory="/usr/include/blkid"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 LTM_Project"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LTM_Project/fast">
+				<Option output="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/LTM_Project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hieudz/CLionProjects/LTM_Project/View/library"/>
+					<Add directory="/home/hieudz/CLionProjects/LTM_Project/Handle/library"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/dbus-1.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/libmount"/>
+					<Add directory="/usr/include/blkid"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 LTM_Project/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SOURCE_FILES">
+				<Option output="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/SOURCE_FILES" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hieudz/CLionProjects/LTM_Project/View/library"/>
+					<Add directory="/home/hieudz/CLionProjects/LTM_Project/Handle/library"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/dbus-1.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/libmount"/>
+					<Add directory="/usr/include/blkid"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 SOURCE_FILES"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SOURCE_FILES/fast">
+				<Option output="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/SOURCE_FILES" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hieudz/CLionProjects/LTM_Project/View/library"/>
+					<Add directory="/home/hieudz/CLionProjects/LTM_Project/Handle/library"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/dbus-1.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/libmount"/>
+					<Add directory="/usr/include/blkid"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 SOURCE_FILES/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LTM_Projectmain.c">
+				<Option output="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/LTM_Projectmain.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hieudz/CLionProjects/LTM_Project/View/library"/>
+					<Add directory="/home/hieudz/CLionProjects/LTM_Project/Handle/library"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/dbus-1.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/libmount"/>
+					<Add directory="/usr/include/blkid"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 LTM_Projectmain.c"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LTM_Projectmain.c/fast">
+				<Option output="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/LTM_Projectmain.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hieudz/CLionProjects/LTM_Project/View/library"/>
+					<Add directory="/home/hieudz/CLionProjects/LTM_Project/Handle/library"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/dbus-1.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/libmount"/>
+					<Add directory="/usr/include/blkid"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 LTM_Projectmain.c/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/library/InitClient.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/library/clientError.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/library/constant.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/library/handleGame.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/library/handleLogin.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/library/handleMain.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/library/handleRecvData.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/library/handleRoom.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/library/handleThread.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/src/HandleMain.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/src/InitClient.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/src/handleGame.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/src/handleLogin.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/src/handleRecvData.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/Handle/src/handleRoom.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/library/InitScreen.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/library/LoginController.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/library/finalController.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/library/gameController.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/library/loserController.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/library/mainController.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/library/roomController.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/library/structScreen.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/library/winnerController.h">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/src/InitScreen.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/src/LoginController.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/src/finalController.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/src/gameController.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/src/loserController.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/src/mainController.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/src/roomController.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/View/src/winnerController.c">
+			<Option target="LTM_Project"/>
+			<Option target="SOURCE_FILES"/>
+			<Option target="LTM_Projectmain.c"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/main.c">
+			<Option target="LTM_Project"/>
+		</Unit>
+		<Unit filename="/home/hieudz/CLionProjects/LTM_Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,193 @@
+
+.login_win{
+    /*background-image: url("");*/
+    background-image: url("image/hieu.png");
+    background-size: 820px 300px;
+}
+
+.login_button{
+    color: blue;
+    border-radius: 25px;
+    font-family: aakar;
+}
+.regis{
+    color: blue;
+    border-radius: 25px;
+
+}
+
+.input{
+    border-radius: 25px;
+}
+.pass_input{
+    border-radius: 25px;
+}
+
+/*main */
+.main_window{
+    background-image: url("image/main2.png");
+    background-size: 710px 335px;
+
+}
+.random{
+    border-radius: 25px;
+    font-family: aakar;
+    font-size: 20px;
+    background:  rgba(0,0,0,0);
+    color: black;
+}
+.new{
+    border-radius: 25px;
+    font-family: aakar;
+    font-size: 20px;
+    background:  rgba(0,0,0,0);
+    color: black;
+}
+.join_id{
+    border-radius: 25px;
+    font-family: aakar;
+    font-size: 20px;
+    background:  rgba(0,0,0,0);
+    color: black;
+}
+.apply{
+    border-radius: 25px;
+    font-family: aakar;
+    font-size: 20px;
+
+}
+.room_id{
+    border-radius: 25px;
+}
+
+.status{
+    font-family: aakar;
+    font-size: 20px;
+    color: red;
+}
+.play_name_main{
+    font-family: aakar;
+    font-size: 30px;
+    color: #0f45ff;
+}
+
+/*room*/
+.play_button{
+    border-radius: 25px;
+    font-family: aakar;
+    font-size: 20px;
+}
+.out_button{
+    border-radius: 25px;
+    font-family: aakar;
+    font-size: 20px;
+}
+
+.room{
+    background-image: url("image/room.png");
+    background-size: 710px 335px;
+}
+
+.play1{
+    font-family: aakar;
+    font-size: 30px;
+    color: #e90c2e;
+}
+.play2{
+    font-family: aakar;
+    font-size: 30px;
+    color: #e90c2e;
+
+}
+.id_room{
+    font-family: aakar;
+    font-size: 30px;
+    color: blue;
+}
+/*game*/
+
+.quay{
+    font-family: aakar;
+    color: #0f45ff;
+    font-size: 20px;
+}
+.input_game{
+    border-radius: 25px;
+
+}
+
+.back_game{
+    border-radius: 25px;
+
+}
+.next_game{
+    border-radius: 25px;
+
+}
+
+.submit{
+    border-radius: 25px;
+
+}
+
+/*game2*/
+.chu{
+    border-radius: 25px;
+
+}
+.final_win{
+    background-image: url("image/game2.png");
+    background-size: 710px 335px;
+}
+.cau_hoi{
+    font-family: aakar;
+    color: #0f45ff;
+    font-size: 30px;
+
+}
+.last{
+    border-radius: 25px;
+
+}
+.goiy{
+    color: red;
+    font-size: 30px;
+}
+.time{
+    color: red;
+    font-size: 30px;
+
+}
+.text{
+    font-family: aakar;
+    color: #0f45ff;
+    font-size: 30px;
+}
+.confirm{
+    border-radius: 25px;
+
+}
+/*lose*/
+.loser_window{
+    background-image: url("image/lose.png");
+    background-size: 560px 300px;
+
+}
+
+.home_loser{
+    color: bisque;
+    background:  rgba(0,0,0,0);
+    border: 0;
+    font-weight: bold;
+}
+
+/*win*/
+.win_window{
+    background-image: url("image/win.png");
+    background-size: 560px 300px;
+}
+
+.home_win{
+    background:  rgba(0,0,0,0);
+    border: 0;
+}

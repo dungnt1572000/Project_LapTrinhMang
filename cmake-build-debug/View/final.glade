@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="final_window">
+    <property name="name">final_win</property>
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkLabel" id="final_question">
+            <property name="name">goiy</property>
+            <property name="width-request">125</property>
+            <property name="height-request">51</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">final_question
+</property>
+            <property name="angle">0.01</property>
+            <style>
+              <class name="goiy"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">162</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">your answer</property>
+          </object>
+          <packing>
+            <property name="x">17</property>
+            <property name="y">132</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="your_text_answer">
+            <property name="name">chu</property>
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <style>
+              <class name="chu"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">137</property>
+            <property name="y">146</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_submit_last_answer">
+            <property name="label" translatable="yes">button_submit_last_answer</property>
+            <property name="name">last</property>
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <style>
+              <class name="last"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">285</property>
+            <property name="y">355</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="hint_text">
+            <property name="width-request">100</property>
+            <property name="height-request">47</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">hint_text</property>
+            <style>
+              <class name="cau_hoi"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">168</property>
+            <property name="y">54</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="time_down">
+            <property name="name">time</property>
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">time_down</property>
+            <style>
+              <class name="time"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">160</property>
+            <property name="y">242</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="name">text</property>
+            <property name="width-request">127</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="xpad">15</property>
+            <property name="label" translatable="yes">guess 3 letters</property>
+            <property name="yalign">0.49000000953674316</property>
+            <attributes>
+              <attribute name="font-desc" value="aakar Medium 15"/>
+            </attributes>
+            <style>
+              <class name="text"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">581</property>
+            <property name="y">4</property>
+          </packing>
+        </child>
+        <child>
+          <!-- n-columns=1 n-rows=3 -->
+          <object class="GtkGrid">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkEntry" id="str1">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="max-length">1</property>
+                <style>
+                  <class name="chu"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkEntry" id="str2">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="max-length">1</property>
+                <style>
+                  <class name="chu"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkEntry" id="str3">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="max-length">1</property>
+                <style>
+                  <class name="chu"/>
+                </style>
+              </object>
+              <packing>
+                <property name="left-attach">0</property>
+                <property name="top-attach">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">553</property>
+            <property name="y">129</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_submit_char">
+            <property name="label" translatable="yes">confirm</property>
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <style>
+              <class name="confirm"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">597</property>
+            <property name="y">242</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <style>
+      <class name="final_win"/>
+    </style>
+  </object>
+</interface>

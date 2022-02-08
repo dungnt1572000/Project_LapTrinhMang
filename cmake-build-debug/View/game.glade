@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="game_window">
+    <property name="width-request">800</property>
+    <property name="height-request">800</property>
+    <property name="can-focus">False</property>
+    <property name="resizable">False</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="width-request">32</property>
+        <property name="height-request">32</property>
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkImage">
+            <property name="width-request">194</property>
+            <property name="height-request">194</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="pixbuf">rsz_1wheel.png</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="turn_button">
+            <property name="label" translatable="yes">quay</property>
+            <property name="width-request">71</property>
+            <property name="height-request">51</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <style>
+              <class name="quay"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">207</property>
+            <property name="y">216</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="value_input">
+            <property name="width-request">200</property>
+            <property name="height-request">72</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="max-length">1</property>
+            <property name="placeholder-text" translatable="yes">Input Your Answer</property>
+            <style>
+              <class name="input_game"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">160</property>
+            <property name="y">520</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="submit_button">
+            <property name="label"> 
+GỬI
+</property>
+            <property name="width-request">100</property>
+            <property name="height-request">77</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="always-show-image">True</property>
+            <style>
+              <class name="submit"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">12</property>
+            <property name="y">519</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="p1_point">
+            <property name="width-request">100</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">0</property>
+            <attributes>
+              <attribute name="font-desc" value="Yrsa Bold Italic 15"/>
+              <attribute name="underline" value="True"/>
+              <attribute name="foreground" value="#000000000000"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">758</property>
+            <property name="y">292</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="p1_name">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Player 1:</property>
+            <attributes>
+              <attribute name="font-desc" value="Tlwg Typo Bold 12"/>
+              <attribute name="foreground" value="#1a1a5f5fb4b4"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">650</property>
+            <property name="y">275</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="p2_name">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Player 2:</property>
+            <attributes>
+              <attribute name="font-desc" value="Tlwg Typo Bold 12"/>
+              <attribute name="foreground" value="#e5e5a5a50a0a"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">650</property>
+            <property name="y">352</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="p2_point">
+            <property name="width-request">100</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">0</property>
+            <attributes>
+              <attribute name="font-desc" value="Yrsa Bold Italic 15"/>
+              <attribute name="underline" value="True"/>
+              <attribute name="foreground" value="#000000000000"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">759</property>
+            <property name="y">371</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="p3_name">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Player 3:</property>
+            <attributes>
+              <attribute name="font-desc" value="Tlwg Typo Bold 12"/>
+              <attribute name="foreground" value="#c6c646460000"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">650</property>
+            <property name="y">432</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="show_announcement">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+          </object>
+          <packing>
+            <property name="x">531</property>
+            <property name="y">549</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="show_turn">
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Turn</property>
+            <attributes>
+              <attribute name="font-desc" value="Z003 Bold Italic 25"/>
+              <attribute name="foreground" value="#2626a2a26969"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">81</property>
+            <property name="y">677</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="show_result">
+            <property name="width-request">500</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Result</property>
+            <attributes>
+              <attribute name="font-desc" value="Sarai Bold Italic 34"/>
+              <attribute name="style" value="oblique"/>
+              <attribute name="weight" value="bold"/>
+              <attribute name="foreground" value="#eded33333b3b"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">547</property>
+            <property name="y">30</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="show_hint">
+            <property name="width-request">500</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Hint</property>
+            <attributes>
+              <attribute name="font-desc" value="Sarai Italic 20"/>
+              <attribute name="foreground" value="#2e2ec2c27e7e"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">547</property>
+            <property name="y">152</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="next_final_button">
+            <property name="label" translatable="yes">Next to Final Round</property>
+            <property name="width-request">165</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <style>
+              <class name="next_game"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">428</property>
+            <property name="y">674</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="out_to_main_button">
+            <property name="label" translatable="yes">Back to main</property>
+            <property name="width-request">100</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="has-focus">True</property>
+            <property name="can-default">True</property>
+            <property name="receives-default">True</property>
+            <style>
+              <class name="back_game"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">719</property>
+            <property name="y">671</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="p3_point">
+            <property name="width-request">100</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="opacity">0</property>
+            <property name="label" translatable="yes">0</property>
+            <attributes>
+              <attribute name="font-desc" value="Yrsa Bold Italic 15"/>
+              <attribute name="underline" value="True"/>
+              <attribute name="foreground" value="#000000000000"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">758</property>
+            <property name="y">454</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

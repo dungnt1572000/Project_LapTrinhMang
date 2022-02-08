@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="room_window">
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="width-request">350</property>
+        <property name="height-request">350</property>
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkButton" id="start_button">
+            <property name="label">gtk-media-play</property>
+            <property name="name">play_button</property>
+            <property name="width-request">111</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="use-stock">True</property>
+            <property name="always-show-image">True</property>
+            <style>
+              <class name="play_button"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">192</property>
+            <property name="y">198</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="player1_name">
+            <property name="width-request">111</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <style>
+              <class name="play1"/>
+            </style>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="player3_name">
+            <property name="width-request">111</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+          </object>
+          <packing>
+            <property name="y">198</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="player2_name">
+            <property name="width-request">111</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <style>
+              <class name="play2"/>
+            </style>
+          </object>
+          <packing>
+            <property name="y">95</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="out_button">
+            <property name="label">gtk-quit</property>
+            <property name="width-request">111</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="use-stock">True</property>
+            <property name="image-position">right</property>
+            <property name="always-show-image">True</property>
+            <style>
+              <class name="out_button"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">329</property>
+            <property name="y">198</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="show_room_id">
+            <property name="width-request">100</property>
+            <property name="height-request">37</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+          </object>
+          <packing>
+            <property name="x">340</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="show_room_status">
+            <property name="width-request">150</property>
+            <property name="height-request">80</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Label</property>
+            <attributes>
+              <attribute name="font-desc" value="Waree Bold Oblique 24"/>
+              <attribute name="foreground" value="#81813d3d9c9c"/>
+            </attributes>
+            <style>
+              <class name="id_room"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">266</property>
+            <property name="y">56</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

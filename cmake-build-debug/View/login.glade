@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="login_window">
+    <property name="width-request">250</property>
+    <property name="height-request">250</property>
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="width-request">32</property>
+        <property name="height-request">32</property>
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <property name="margin-right">9</property>
+        <child>
+          <object class="GtkEntry" id="username_input">
+            <property name="width-request">169</property>
+            <property name="height-request">55</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="placeholder-text" translatable="yes">User Name</property>
+            <style>
+              <class name="input"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">244</property>
+            <property name="y">34</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="password_input">
+            <property name="name">pass_input</property>
+            <property name="width-request">169</property>
+            <property name="height-request">55</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="placeholder-text" translatable="yes">PassWord</property>
+            <style>
+              <class name="pass_input"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">246</property>
+            <property name="y">128</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="name">user_name</property>
+            <property name="width-request">100</property>
+            <property name="height-request">47</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">UserName</property>
+            <attributes>
+              <attribute name="font-desc" value="aakar Medium 20"/>
+              <attribute name="foreground" value="#4f0196bdb92b"/>
+            </attributes>
+            <style>
+              <class name="user_name"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">124</property>
+            <property name="y">39</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">88</property>
+            <property name="height-request">51</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Password</property>
+            <attributes>
+              <attribute name="font-desc" value="aakar Medium 20"/>
+              <attribute name="foreground" value="#2be96723d47a"/>
+            </attributes>
+            <style>
+              <class name="pass"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">124</property>
+            <property name="y">130</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="login_button">
+            <property name="label">gtk-connect</property>
+            <property name="width-request">99</property>
+            <property name="height-request">62</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <property name="use-stock">True</property>
+            <property name="image-position">right</property>
+            <property name="always-show-image">True</property>
+            <style>
+              <class name="login_button"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">165</property>
+            <property name="y">224</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="register_button">
+            <property name="label" translatable="yes">Register</property>
+            <property name="name">regis</property>
+            <property name="width-request">99</property>
+            <property name="height-request">62</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+            <style>
+              <class name="regis"/>
+            </style>
+          </object>
+          <packing>
+            <property name="x">366</property>
+            <property name="y">224</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="show_login_status">
+            <property name="width-request">391</property>
+            <property name="height-request">80</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="angle">0.02</property>
+            <attributes>
+              <attribute name="font-desc" value="Sarai Bold 25"/>
+              <attribute name="underline" value="True"/>
+              <attribute name="foreground" value="#a5a51d1d2d2d"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">419</property>
+            <property name="y">54</property>
+          </packing>
+        </child>
+        <style>
+          <class name="login1_win"/>
+        </style>
+      </object>
+    </child>
+    <style>
+      <class name="login_win"/>
+    </style>
+  </object>
+</interface>

@@ -1,0 +1,5 @@
+/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/CMakeFiles/LTM_Project.dir
+/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/CMakeFiles/SOURCE_FILES.dir
+/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/CMakeFiles/LTM_Projectmain.c.dir
+/home/hieudz/CLionProjects/LTM_Project/cmake-build-debug/CMakeFiles/edit_cache.dir
